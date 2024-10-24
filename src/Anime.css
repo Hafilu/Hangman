@@ -1,0 +1,24 @@
+/* Container for the T shape */
+.t-shape {
+    position: absolute;
+    right: 0;
+    top: -2%;
+    transform-origin: top center;
+    animation: swing 2s ease-in-out infinite;
+  }
+  
+   
+  
+  /* Pendulum swing animation */
+  @keyframes swing {
+    0% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(5deg);
+    }
+  }
+  
